@@ -5,7 +5,7 @@ public class MainTest {
 		//다형성을 이용하여 Electric객체 안에 Television와 WashingMachine객체를 생성할 수 있다.
 		//부모 배열안에 서로 다른 자식배열을 생성함으로써 효율적인 코딩이 이루어 진다.
 		
-		System.out.println("nnnnnnnnnnnnn");
+		System.out.println("nnnnnnnnnndnnn");
 		
 		ControllIF product=new ControllDevice();
 		product.insertProduct(new Television(3401,"LG 평면TV", 2400000,76,"Full HD TV","HD",22));
